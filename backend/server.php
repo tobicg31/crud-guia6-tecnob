@@ -16,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 
 require_once("./routes/studentsRoutes.php"); //incluye el archivo que define las rutas o la logica
 /*
+hay que hacer el codigo que chequee que modulo va a usar ->
 require_once("routes/nuevomoduloRoutes.php"); si creo un nuevo archivo lo llamo aca
 */
 ?>
